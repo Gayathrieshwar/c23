@@ -9,7 +9,7 @@ function setup(){
   createCanvas(400,400);
   myengine=Engine.create();
 
-//my world is equal to my engine's world
+//myworld is equal to my engine's world
 myworld=myengine.world;
 
 ground= new Ground(200,380,400,10);
